@@ -18,6 +18,7 @@ This CodeBook contains an brief explanations of variable used in the analisys:
       - total_acc_z_train and test
       - body_gyro_z_train and test
       - body_acc_z_train and test
+
 - Merge Train and Test usign rbind
 - Extract only mean an sd variables
 - Use descriptive activity names to name the activities in the data set 
