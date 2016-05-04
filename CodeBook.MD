@@ -2,28 +2,19 @@
 
 This CodeBook contains an brief explanations of variable used in the analisys:
 
-
-  - Loads library plyr
+  - Loads library plyr and RCurl
   - Downloads required data from (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-  Creates results folder
-  Loads feature data set features.txt used for columns
-  Loads and appends train dataset using X_train.txt, y_train.txt, subject_train.txt
-  subject_train contains the ids
-  y_train contains the activity labels
-  X_train contains the data using the feature data set as columns
-  Loads and appends test dataset using X_test.txt, y_test.txt, subject_test.txt
-  subject_test contains the ids
-  y_test contains the activity labels
-  X_test contains the data using the feature data set as columns
-  Appends train and test data
-  Rearrange the data using id
-  Loading activity labels activity_labels.txt
-  Changes the data activity row to use the activity labels
-  Extracts the mean,std into dataset1
-  Saves dataset1 into result/dataset1.csv
-  Uses plur to calculate mean on activity for each id
-  appends _mean to all data columns
-  saves the tidy dataset2 into result/dataset2.csv
+  - Unzip the files
+  - Load in R all datas used using read.table
+      - total_acc_x_train
+      - body_gyro_x_train
+      - body_acc_x_train
+      - total_acc_y_train
+      - body_gyro_y_train
+      - body_acc_y_train
+      - total_acc_z_train
+      - body_gyro_z_train
+      - body_acc_z_train
 
 
 Final Data Set
