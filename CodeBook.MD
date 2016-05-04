@@ -6,15 +6,18 @@ This CodeBook contains an brief explanations of variable used in the analisys:
   - Downloads required data from (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
   - Unzip the files
   - Load in R all datas used using read.table
-      - total_acc_x_train
-      - body_gyro_x_train
-      - body_acc_x_train
-      - total_acc_y_train
-      - body_gyro_y_train
-      - body_acc_y_train
-      - total_acc_z_train
-      - body_gyro_z_train
-      - body_acc_z_train
+      - subject_train.txt and test
+      - x_train.txt and test
+      - y_train.txt and test
+      - total_acc_x_train and test
+      - body_gyro_x_train and test
+      - body_acc_x_train and test
+      - total_acc_y_train and test
+      - body_gyro_y_train and test
+      - body_acc_y_train and test
+      - total_acc_z_train and test
+      - body_gyro_z_train and test
+      - body_acc_z_train and test
 
 
 Final Data Set
